@@ -1,0 +1,12 @@
+a=5
+b=6.7
+c="hello"
+d=True
+e=[6,67,54,6]
+f=(54,6,4,34)
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))

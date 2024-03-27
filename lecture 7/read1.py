@@ -1,0 +1,18 @@
+#reading a file line wise
+f=open("lecture 7\demo.txt","r")
+line1=f.readline()
+print(line1)
+line2=f.readline()
+print(line2)
+line3=f.readline()
+print(line3)
+line4=f.readline()
+print(line4)
+line5=f.readline()
+print(line5)
+#if we are print the more line in program and we have limited lines in our file then in this situation we will get the an empty line.
+line6=f.readline()
+print(line6)
+line7=f.readline()
+print(line7)
+f.close()
