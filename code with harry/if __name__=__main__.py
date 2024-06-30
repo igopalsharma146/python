@@ -1,0 +1,3 @@
+import gopal
+
+gopal.welcome()

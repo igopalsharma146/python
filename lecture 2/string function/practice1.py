@@ -1,3 +1,3 @@
 #counting $ in string
-str1="$ame name a$ $gopal $harma"
+str1="$my name a$ $gopal $harma"
 print(str1.count("$"))

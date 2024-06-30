@@ -1,0 +1,11 @@
+print(ord("A"))
+print(ord("b"))
+print(ord("$"))
+print(ord("#"))
+print(ord("&"))
+print(ord("😂"))
+print(ord("😊"))
+
+print(chr(67))
+print(chr(67))
+print(chr(67))

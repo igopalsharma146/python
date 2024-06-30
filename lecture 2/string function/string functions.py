@@ -32,3 +32,7 @@ str4=str1.count("opa")
 print(str4)
 str4=str1.count("k")
 print(str4)
+
+#checking numeric
+l1='abc'
+print(l1.isnumeric())
