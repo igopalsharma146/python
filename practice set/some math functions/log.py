@@ -10,6 +10,6 @@ x1=2.5
 y1=3.45
 print(math.log(x1,y1))
 
-x1=5.55
-y1=9.45
-print(math.log(x1,y1))
+x2=5.55
+y2=9.45
+print(math.log(x2,y2))
