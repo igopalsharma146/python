@@ -5,9 +5,9 @@ And then display the count in term of dictionary.
 def calculate_positive_negative(list):
     positive,negetive=0,0
     for i in list:
-        if (0<i):
+        if (i>0):
             positive+=1
-        elif(0>i):
+        elif(i<0):
             negetive+=1
     print("Total positive numbers:",positive)
     print("Total negetive numbers:",negetive)

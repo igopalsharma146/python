@@ -1,5 +1,5 @@
 """
-    3). Write a program to create a function to return the reverse of the number ended.
+    3). Write a program to create a function to return the reverse of the number.
     """
 def num(n):
     rev=0

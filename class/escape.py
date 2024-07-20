@@ -1,4 +1,4 @@
-""" 
+'''
 \'=single quote
 \\=BACK SLASH
 \n=NEW LINE
@@ -7,8 +7,7 @@
 \b=BACKSPACE
 \f=FORM FEED
 \000=OCTAL VALUE
-\xhh=HEX VALUE
-"""
+'''
 print("we are learning python.\'From MITRC college.\'")
 print("we are learning python.\\From MITRC college.")
 print("we are learning python.\nFrom MITRC college.")
