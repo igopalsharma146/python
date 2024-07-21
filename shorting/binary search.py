@@ -4,7 +4,7 @@ def binary(array,target):
         mid=(left+right)//2
         if (array[mid]==target):
             return mid
-        elif(array[mid]<target):
+        elif(target>array[mid]):
             left=mid+1
         else:
             right=mid-1
