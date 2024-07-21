@@ -15,24 +15,24 @@ name.add(22.4)
 print(name)
 print(len(name))
 
-print("\n\n\n")
+print("\n\n")
 # set.remove()   Remove an element
 #name.remove(7)  ->key error because value is not exists.
 name.remove(2)
 name.remove("hello")
 name.remove(22.4)
 print(name)
-print("\n\n\n")
+print("\n\n")
 
 
 # set.clear()   Empities the set
 name.clear()
 print(name)
 print(len(name))
-print("\n\n\n")
+print("\n\n")
 
 
-# set.pop()      Remove a rendom value
+#set.pop()      #Remove a rendom value
 name=set()
 print(name)
 name.add(1)

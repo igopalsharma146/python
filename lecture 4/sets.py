@@ -7,5 +7,3 @@ collection={1,2,2,3,3,4,5,"hello","hello",33.8,33.8}
 print(collection)
 print(type(collection))
 print(len(collection))
-
-
