@@ -6,5 +6,5 @@ for i in range(0,len(list)):
     if(list[i]==n):
         print("value is found at index:",i)
         break #for stoping the loop
-    else:
-        print("value is not found.")
+else:
+    print("value is not found.")

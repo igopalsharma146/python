@@ -4,7 +4,7 @@ for i in range (0,5):
     l1.append(eval(input("enter a number:")))
 for i in range(0,5):
     sum1=sum1+l1[i]
-avg=sum1/5
+avg=sum1/len(l1)
 print("average=",avg)
 
 #using sum function

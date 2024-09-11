@@ -5,5 +5,5 @@ Module(like a code library)is a file written by another programmer that generall
 import os
 os.remove(filename)
 """
-import os
-os.remove("lecture 7\demo6.txt")#demo6.txt file is removed.
+# import os
+# os.remove("lecture 7\demo6.txt")#demo6.txt file is removed.

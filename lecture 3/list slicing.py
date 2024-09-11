@@ -9,3 +9,6 @@ print(str1[-11:-5])
 print(str1[-(len(str1)):-2])
 print(str1[-11:])
 print(str1[:-1])
+
+#reverse of  a list
+print(list(str1[::-1]))

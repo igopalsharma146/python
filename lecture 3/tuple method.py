@@ -4,6 +4,7 @@ print(tup.index(7))
 print(tup.index(6))
 print(tup.index(2))
 print(tup.index(45))
+#print(tup.index(99)) # give an error,because 99 is not exist in out tup 
 print(tup)
 
 #counting

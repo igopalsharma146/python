@@ -13,6 +13,7 @@ for index, mark in enumerate(marks):
         print("GOPAL, awesome!")
         
         
+print('\n\n')
 for index, mark in enumerate(marks, start=1):
     print(mark)
     if(index == 3):

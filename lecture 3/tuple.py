@@ -7,6 +7,7 @@ print(tup[2])
 print(tup[3])
 print(tup[4])
 
+print("\n\n")
 #printing empty tuple
 tuple=()
 print(tuple)
@@ -22,7 +23,7 @@ tuple=(1)
 print(tuple)
 print(type(tuple))
 
-tuple=(1.34)
+tuple1=(1.34)
 print(tuple)
 print(type(tuple))
 

@@ -12,7 +12,7 @@ def dict(dict,target):
     else:
         return -1
 n=input("Enter target that you want to search:")
-dict1={1:"A",2:"B",3:"C","Amit":"D","1":"D"}
+dict1={"1":"A","2":"B","3":"C","Amit":"D","6":"E"}
 l1=dict(dict1,n)
 if l1!=-1:
     print(f"value of {n} is:",dict1[l1])

@@ -5,8 +5,8 @@ def insertion_short(array):
         j=i-1
         while j>=0 and array[j]>key:
             array[j+1]=array[j]
+            array[j]=key
             j-=1
-            array[j+1]=key
             #j-=1
             #print("pass:",i,array)
         print("pass:",i,array)

@@ -23,3 +23,19 @@ print(s.format(n,h,fh,th))
 total=h*100+fh*500+th*1000
 s="total amount withdrawal by the person from the atm in rupees is:{0}"
 print(s.format(total))
+
+# Function to calculate total withdrawal amount
+def calculate_total_withdrawal(notes_100, notes_500, notes_1000):
+    total_amount = (notes_100 * 100) + (notes_500 * 500) + (notes_1000 * 1000)
+    return total_amount
+
+# Input: Number of notes for each denomination
+notes_100 = int(input("Enter the number of 100 INR notes: "))
+notes_500 = int(input("Enter the number of 500 INR notes: "))
+notes_1000 = int(input("Enter the number of 1000 INR notes: "))
+
+# Calculate total amount
+total_amount = calculate_total_withdrawal(notes_100, notes_500, notes_1000)
+
+# Output the total amount
+print(f"Total amount withdrawn: {total_amount} INR")
